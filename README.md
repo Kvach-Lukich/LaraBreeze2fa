@@ -5,6 +5,7 @@ Storing second passcode in session - time to live code = session live time, use 
 No additional guard and controllers, only routes and templates
 
 ## Requires
+laravel/framework ^8.75
 laravel/breeze ^1.9.2
 
 ## Installation
