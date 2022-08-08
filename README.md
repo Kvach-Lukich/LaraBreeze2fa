@@ -19,6 +19,7 @@ wget https://github.com/Kvach-Lukich/LaraBreeze2fa/archive/refs/heads/main.zip
 3. Move files to laravel folder
 ```sh
 mv LaraBreeze2fa-main/* pat/to/laravel/folder/
+rm LaraBreeze2fa-main
 ```
 4. Configure email if already not
 5. Add fields to user table or start megration
