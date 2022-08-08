@@ -1,7 +1,7 @@
 # LaraBreeze2fa
 2 factor authentication Laravel8 Breeze easiest way with session
 
-Storing second passcode in session - time to live code = session live time, use db only for debug (i.e. email not delivered)
+Storing second passcode in session - time to live code = session live time, use db only for debug (i.e. email not delivered) 
 No additional guard and controllers, only routes and templates
 
 ## Requires
