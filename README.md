@@ -27,3 +27,6 @@ rm LaraBreeze2fa-main
 ~~~~sql
 ALTER TABLE `users` ADD `code` SMALLINT UNSIGNED NULL DEFAULT NULL AFTER `remember_token`, ADD `no2fa` BOOLEAN NULL DEFAULT NULL AFTER `code`; 
 ~~~~
+
+## example
+[AuthenticatedSessionController](app/Http/Controllers/Auth/AuthenticatedSessionController.php)
