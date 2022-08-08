@@ -13,9 +13,10 @@ laravel/breeze ^1.9.2
 ```sh
 mv app/Http/Controllers/Auth/AuthenticatedSessionController.php app/Http/Controllers/Auth/AuthenticatedSessionController.old
 ```
-2. Download archive
+2. Download archive & unzip
 ```sh
 wget https://github.com/Kvach-Lukich/LaraBreeze2fa/archive/refs/heads/main.zip
+unzip main.zip
 ```
 3. Move files to laravel folder
 ```sh
