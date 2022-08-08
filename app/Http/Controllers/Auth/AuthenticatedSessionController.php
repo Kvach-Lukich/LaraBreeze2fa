@@ -81,7 +81,7 @@ class AuthenticatedSessionController extends Controller
                 $user->code=NULL;
                 $user->save();
                 $request->session()->regenerate();
-            // redirect to dushboard 
+            // redirect to dashboard 
                 return redirect()->intended(RouteServiceProvider::HOME);
             }
         }else{
